@@ -6,8 +6,9 @@ Batch API has a constructor class which will have to be initiated before each us
 import c2mAPIBatch from "../class_c2mAPI_batch.js";
 var user= "testUser";
 var pw="testPW";
-var mode = "Stage"  //Change to blank or "Production" for live.
+var mode = "Stage"  
 
+#Change to blank or "Production" for live.
 var c2m = new c2mAPIBatch(user, pw, mode); 
 
 
